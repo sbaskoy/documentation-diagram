@@ -10,7 +10,6 @@
                             <p>{{ menu }}</p>
                         </div>
                     </router-link>
-
                 </div>
             </div>
         </div>

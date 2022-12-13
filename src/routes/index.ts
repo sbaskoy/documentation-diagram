@@ -10,6 +10,16 @@ const routes = [
         },
         children: [
             {
+                path: "/",
+                name: "Home",
+                components: {
+                    markdown: () => import("../views/markdowns/show_markdown.vue")
+                },
+                meta: {
+                    title: "Home"
+                }
+            },
+            {
                 path: "/:path",
                 name: "HomePath",
                 components: {
